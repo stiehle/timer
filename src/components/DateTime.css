@@ -1,0 +1,26 @@
+.datetime-time {
+  font-size: 8rem;
+  background-color: #90ee90;
+  border-radius: 5rem;
+  padding: 0 2rem;
+  margin-bottom: 1rem;
+  border: 1rem solid #d3ff33;
+}
+
+.datetime-time p {
+  display: inline;
+  color: #d3ff33;
+}
+
+.datetime-date {
+  font-size: 5rem;
+  background-color: #90b9ee;
+  border-radius: 5rem;
+  border: 1rem solid #3352ff;
+  margin-bottom: 1rem;
+}
+
+.datetime-date p {
+  display: inline;
+  color: #3392ff;
+}
