@@ -34,7 +34,7 @@ function DateTime() {
   }
 
   return (
-    <div>
+    <div className="datetime-wrapper">
       <div className="datetime-time">
         {time.hour}
         <p>:</p>

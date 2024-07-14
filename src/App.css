@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Micro+5+Charted&display=swap");
-
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
   text-align: center;
-  font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  background: linear-gradient(to top right, #5d15da 0%, #888383 100%);
 }
