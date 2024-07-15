@@ -8,7 +8,6 @@ function DateTime() {
   if (!start) {
     startTimer();
     setStart(true);
-    console.log("start Timer 1000ms");
   }
 
   function startTimer() {

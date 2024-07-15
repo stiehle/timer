@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   height: 100%;
-  width: 100%;
   text-align: center;
   background: linear-gradient(to top right, #5d15da 0%, #888383 100%);
 }

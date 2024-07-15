@@ -1,12 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -14,7 +16,6 @@
 }
 
 body {
-  margin: 0;
   height: 100vh;
 }
 
@@ -27,7 +28,8 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  height: 2rem;
+  height: 3rem;
+  padding: 0.5rem;
 }
 button:hover {
   border-color: #646cff;

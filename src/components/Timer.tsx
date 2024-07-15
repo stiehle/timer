@@ -60,7 +60,6 @@ function Timer() {
 
   function useFormInput() {
     const handleInputChangeEvent = (event: React.ChangeEvent<HTMLInputElement>) => {
-      console.log(event.target.value);
       setInputValue(Number(event.target.value));
     };
 
@@ -74,13 +73,17 @@ function Timer() {
 
   return (
     <>
-      <div className="timer">
-        <p className="header">Zeit:</p>
-        <input type="number" value={time.inputValue} onChange={time.handleInputChangeEvent} />
-        <p className="time">{secondsLeft.toFixed(3)} s</p>
-        <button onClick={handleStart}>Start</button>
-        <button onClick={handlePause}>Pause</button>
-        <button onClick={handleReset}>Reset</button>
+      <div className="timer-wrapper">
+        <div className="timer-header">
+          <p className="header">Zeit:</p>
+          <input type="number" value={time.inputValue} onChange={time.handleInputChangeEvent} />
+          <p className="time">{secondsLeft.toFixed(3)} s</p>
+        </div>
+        <div className="timer-control">
+          <button onClick={handleStart}>Start</button>
+          <button onClick={handlePause}>Pause</button>
+          <button onClick={handleReset}>Reset</button>
+        </div>
       </div>
     </>
   );
